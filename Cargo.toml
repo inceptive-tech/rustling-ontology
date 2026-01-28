@@ -25,7 +25,7 @@ members=[
 ]
 
 [dependencies]
-rmp-serde = "0.14"
+rmp-serde = { git = "https://github.com/inceptive-tech/rmp-serde" , tag = "0.13.8"}
 serde = { version = "1", features = ["derive"] }
 rustling = { git = "https://github.com/snipsco/rustling", tag = "0.9.1" }
 rustling-ontology-moment = { path = "moment" }
@@ -38,7 +38,7 @@ rustling-ontology-json-utils = { path = "json-utils" }
 serde_json = "1"
 
 [build-dependencies]
-rmp-serde = "0.14"
+rmp-serde = { git = "https://github.com/inceptive-tech/rmp-serde" , tag = "0.13.8"}
 serde = { version = "1", features = ["derive"] }
 rustling = { git = "https://github.com/snipsco/rustling", tag = "0.9.1" }
 rustling-ontology-values = { path = "values" }
